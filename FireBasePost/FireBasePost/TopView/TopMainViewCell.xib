@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="179" id="jCK-Vg-dqa" customClass="TopMainViewCell" customModule="FireBasePost" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="653" height="179"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jCK-Vg-dqa" id="D3O-GM-7jm">
+                <rect key="frame" x="0.0" y="0.0" width="653" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2kg-ff-zc2">
+                        <rect key="frame" x="8" y="8" width="87" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2kg-ff-zc2" secondAttribute="height" multiplier="1:1" id="5hO-Lt-Lxh"/>
+                            <constraint firstAttribute="width" constant="87" id="Shf-2i-KmI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fs6-wB-Jrq">
+                        <rect key="frame" x="115" y="8" width="530" height="87"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grb-Q7-olP">
+                        <rect key="frame" x="8" y="105" width="637" height="66"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fs6-wB-Jrq" firstAttribute="top" secondItem="2kg-ff-zc2" secondAttribute="top" id="1Di-Rq-fXZ"/>
+                    <constraint firstAttribute="trailing" secondItem="fs6-wB-Jrq" secondAttribute="trailing" constant="8" id="Mde-cS-Vg8"/>
+                    <constraint firstItem="Grb-Q7-olP" firstAttribute="top" secondItem="fs6-wB-Jrq" secondAttribute="bottom" constant="10" id="Pps-Ga-p2F"/>
+                    <constraint firstItem="Grb-Q7-olP" firstAttribute="leading" secondItem="D3O-GM-7jm" secondAttribute="leading" constant="8" id="XI8-am-7fs"/>
+                    <constraint firstItem="fs6-wB-Jrq" firstAttribute="top" secondItem="D3O-GM-7jm" secondAttribute="top" constant="8" id="Xwi-Nz-Fej"/>
+                    <constraint firstAttribute="bottom" secondItem="Grb-Q7-olP" secondAttribute="bottom" constant="8" id="eM9-Zf-9DF"/>
+                    <constraint firstItem="fs6-wB-Jrq" firstAttribute="leading" secondItem="2kg-ff-zc2" secondAttribute="trailing" constant="20" id="m3t-Qt-wxn"/>
+                    <constraint firstItem="2kg-ff-zc2" firstAttribute="top" secondItem="D3O-GM-7jm" secondAttribute="top" constant="8" id="p2b-Rl-CmW"/>
+                    <constraint firstItem="2kg-ff-zc2" firstAttribute="leading" secondItem="D3O-GM-7jm" secondAttribute="leading" constant="8" id="qcW-tB-3XF"/>
+                    <constraint firstAttribute="trailing" secondItem="Grb-Q7-olP" secondAttribute="trailing" constant="8" id="uht-HS-tR6"/>
+                    <constraint firstItem="fs6-wB-Jrq" firstAttribute="bottom" secondItem="2kg-ff-zc2" secondAttribute="bottom" id="wDe-QU-UU4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="351.44927536231887" y="82.03125"/>
+        </tableViewCell>
+    </objects>
+</document>
